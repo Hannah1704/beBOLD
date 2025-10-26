@@ -1,8 +1,15 @@
-1. Building the docker file 
+Building the docker file 
 docker build -t be-bold .
 
+0. login 
+docker login 
+(the image woudlve been tagged and pushed already)
+
+1. Pull
+docker pull u23587832/be-bold:latest
+
 2. Run
-docker run -p 3000:3000 be-bold
+docker run -p 3000:3000 u23587832/be-bold
 
 gitHub
 https://github.com/Hannah1704/beBOLD
